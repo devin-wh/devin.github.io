@@ -1,0 +1,88 @@
+{
+	"workbench.colorTheme": "Default Dark+",
+	"workbench.editorAssociations": {
+		"*.bin": "hexEditor.hexedit"
+	},
+	"extensions.ignoreRecommendations": true,
+	"extensions.closeExtensionDetailsOnViewChange": false,
+	"terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+
+	/* proxy config */
+	"http.proxy": "http://10.10.16.253:3128",
+	"http.proxySupport": "on",
+	"http.proxyAuthorization": null,
+
+	/* editor config */
+	/*
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"prettier.trailingComma": "none",
+	*/
+	"editor.fontSize": 14,
+	"editor.fontFamily": "Consolas, 'Courier New', monospace",
+	"editor.tabSize": 4,
+	"editor.insertSpaces": false,
+	"editor.formatOnSave": false,
+	"editor.lineNumbers": "on",
+	"editor.rulers": [
+		80,
+		120
+	],
+	"editor.quickSuggestions": {
+		"other": true,
+		"comments": false,
+		"strings": true
+	},
+	"editor.trimAutoWhitespace": false,
+	"editor.renderWhitespace": "all",
+	"editor.renderLineHighlightOnlyWhenFocus": true,
+	"editor.autoIndent": "keep",
+	"editor.detectIndentation": false,
+	/* Formatter */
+	"[html][liquid]": {
+		"editor.defaultFormatter": "Shopify.theme-check-vscode"
+	},
+	"[shellscript]": {
+		"editor.defaultFormatter": "foxundermoon.shell-format"
+	},
+	/* Disable vscode built-in stylelint */
+	"css.validate": false,
+	"scss.validate": false,
+	"less.validate": false,
+	/* Stylint extension settings */
+	"stylelint.snippet": ["css", "less", "postcss", "scss"],
+	"stylelint.validate": ["css", "less", "postcss", "scss"],
+
+	/* files config */
+	"files.autoSave": "afterDelay",
+	"files.autoSaveDelay": 1000,
+	"files.eol": "\n",
+	"files.encoding": "utf8",
+	"files.defaultLanguage": "c",
+	"files.associations": {
+		"*.c": "c",
+		"*.h": "c",
+		"*.cpp": "cpp",
+		"*.hpp": "cpp",
+		"*.cxx": "cpp",
+		"*.hxx": "cpp",
+		".spec": "Makefile",
+		"array": "c",
+		"string_view": "c",
+		"initializer_list": "c",
+		"utility": "c",
+		"*.html": "liquid"
+	},
+	"files.trimFinalNewlines": true,
+	"files.trimTrailingWhitespace": true,
+
+
+	/* git config */
+	"git.enableSmartCommit": true,
+	"git.autofetch": true,
+	"git.globalUserName": "kevinzhanginwh",
+	"git.globalUserEmail": "kevin.zhang.inwh@outlook.com",
+	"git.authenticationSignin": "prompt",
+
+	"eslint.autoFixOnSave": true,
+	"eslint.alwaysShowStatus": true,
+}

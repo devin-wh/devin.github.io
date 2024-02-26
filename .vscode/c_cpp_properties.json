@@ -1,0 +1,44 @@
+{
+	// 在vscode界面右下角提供编译环境选项
+	"configurations": [
+		{
+			"name": "Win32",
+			"includePath": [
+				"${workspaceFolder}/**"
+			],
+			"defines": [
+				"_DEBUG",
+				"UNICODE",
+				"_UNICODE"
+			],
+			"windowsSdkVersion": "10.0.22000.0",
+			"compilerPath": "cl.exe",
+			"cStandard": "c17",
+			"cppStandard": "c++17",
+			"intelliSenseMode": "windows-msvc-x64"
+		},
+		{
+			"name": "Linux-aarch64",
+			"includePath": [
+				"${workspaceFolder}/**"
+			],
+			"defines": [],
+			"cStandard": "c11",
+			"cppStandard": "c++17",
+			"intelliSenseMode": "linux-clang-x64",
+			"compilerPath": "/home/kevin/public/aarch64-linux-gnu-gcc"
+		},
+		{
+			"name": "Linux",
+			"includePath": [
+				"${workspaceFolder}/**"
+			],
+			"defines": [],
+			"cStandard": "c11",
+			"cppStandard": "c++17",
+			"intelliSenseMode": "linux-clang-x64",
+			"compilerPath": "/usr/bin/gcc"
+		}
+	],
+	"version": 4
+}

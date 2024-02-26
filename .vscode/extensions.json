@@ -1,0 +1,16 @@
+{
+	"recommendations": [
+		"ms-python.python",
+		"dbaeumer.vscode-eslint",
+		"eamodio.gitlens",
+		// Liquid tags auto-complete
+		"killalau.vscode-liquid-snippets",
+		// Liquid syntax highlighting and formatting
+		"Shopify.theme-check-vscode",
+		// Common formatter
+		"esbenp.prettier-vscode",
+		"foxundermoon.shell-format",
+		"stylelint.vscode-stylelint",
+		// Add more extension recommendations here
+	]
+}

@@ -1,0 +1,10 @@
+{
+  "Print to Console": {
+    "scope": "python",
+    "prefix": "print",
+    "body": [
+      "print($1)"
+    ],
+    "description": "Print to Console"
+  }
+}

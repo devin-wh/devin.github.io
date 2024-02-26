@@ -1,0 +1,10 @@
+{
+  "Print to Console": {
+    "scope": "cpp",
+    "prefix": "cout",
+    "body": [
+      "std::cout << $1 << std::endl;"
+    ],
+    "description": "Print to Console"
+  }
+}
