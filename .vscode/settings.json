@@ -20,7 +20,7 @@
 	"editor.fontSize": 14,
 	"editor.fontFamily": "Consolas, 'Courier New', monospace",
 	"editor.tabSize": 4,
-	"editor.insertSpaces": false,
+	"editor.insertSpaces": true,
 	"editor.formatOnSave": false,
 	"editor.lineNumbers": "on",
 	"editor.rulers": [
