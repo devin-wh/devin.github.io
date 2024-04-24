@@ -79,7 +79,7 @@
 	/* git config */
 	"git.enableSmartCommit": true,
 	"git.autofetch": true,
-	"git.globalUserName": "kevinzhanginwh",
+	"git.globalUserName": "devin-wh",
 	"git.globalUserEmail": "kevin.zhang.inwh@outlook.com",
 	"git.authenticationSignin": "prompt",
 
